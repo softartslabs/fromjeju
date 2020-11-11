@@ -35,7 +35,11 @@
     </script>
     <script>
       window.onload = function () {
-        location.href = "https://smartstore.naver.com/fromjejudo";
+        var redirectUrl = location.search.replace('?redirect=', '');
+        if (redirectUrl[0] !== '/') {
+          redirectUrl = '/' + redirectUrl;
+        }
+        location.href = "https://smartstore.naver.com/fromjejudo" + redirectUrl;
       };
     </script>
   </body>
