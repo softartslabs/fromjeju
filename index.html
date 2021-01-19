@@ -39,6 +39,9 @@
         if (redirectUrl[0] !== '/') {
           redirectUrl = '/' + redirectUrl;
         }
+        if (redirectUrl === '/') {
+          redirectUrl = '/fromjejudo';
+        }
         location.href = "https://smartstore.naver.com" + redirectUrl;
       };
     </script>
