@@ -1,5 +1,7 @@
 # fromjeju
 
+https://github.com/softartslabs/fromjeju/settings/pages
+
 fromjeju
 > naver566d42b0007d88f215dd4c88a0ed4f68.html
 
